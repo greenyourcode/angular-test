@@ -1,0 +1,2 @@
+<p [ngClass]="{'red-line': index >= 2}">case works {{index | indexPipe }} !</p>
+<button [appLimit]="index" (click)="caseChanged.emit(index)">Emit Index</button>
